@@ -12,7 +12,7 @@ TEST(TodoListTest, AddSingleTask) {
     ASSERT_EQ(count, 1);
     EXPECT_STREQ(tasks[0], "Write code");
 
-    todo.destroy();
+    todo.destroy(); 
 }
 
 TEST(TodoListTest, AddMultipleTasks) {
